@@ -16,6 +16,7 @@ DataController.prototype.getData = function () {
     console.log(munroNames);
 
     PubSub.publish("DataController: all-munro-names-ready", munroNames);
+    PubSub.publish("DataController: all-munro-objects-ready", this.munros);
   });
 };
 

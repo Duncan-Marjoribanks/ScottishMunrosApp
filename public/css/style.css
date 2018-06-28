@@ -1,0 +1,9 @@
+.munro-name {
+  text-decoration: bold;
+}
+
+li {
+  color: blue;
+  margin-left: 10px;
+  padding-left: 10px;
+}
